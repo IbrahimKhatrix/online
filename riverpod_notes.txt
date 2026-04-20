@@ -1,0 +1,2 @@
+For simple values (Int, String, bool)
+use: StateProvider
