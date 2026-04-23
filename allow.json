@@ -1,7 +1,7 @@
 {
   "allow": false,
-  "title": "Maintenance Break",
-  "message": "We’re upgrading servers. Try again later.",
+  "title": "Access Restricted",
+  "message": "Your session has expiring, contact developer",
   "button_text": "Close App",
   "force_exit": true
 }
