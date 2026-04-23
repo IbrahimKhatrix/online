@@ -1,5 +1,5 @@
 {
-  "allow": false,
+  "allow": true,
   "title": "Access Restricted",
   "message": "Your session has expiring, contact developer",
   "button_text": "Close App",
