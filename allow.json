@@ -6,5 +6,11 @@
         "button_text": "Close App",
         "force_exit": true
     },
-    "users": []
+    "users": {
+        "tester": {
+            "name": "x",
+            "phone": "000",
+            "expires_at": "2026-05-03T23:21:00+05:30"
+        }
+    }
 }
