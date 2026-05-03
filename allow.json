@@ -6,11 +6,5 @@
         "button_text": "Close App",
         "force_exit": true
     },
-    "users": {
-        "143be8fa-ea93-4666-8a3c-a9d829d44dc5": {
-            "name": "System",
-            "phone": "+91 7016795641",
-            "expires_at": "2026-05-27T22:40:00+05:30"
-        }
-    }
+    "users": []
 }
