@@ -1,16 +1,16 @@
 {
-  "global": {
-    "allow": true,
-    "title": "Access Restricted",
-    "message": "Your session has expired, contact developer",
-    "button_text": "Close App",
-    "force_exit": true
-  },
-  "users": {
-    "143be8fa-ea93-4666-8a3c-a9d829d44dc5": {
-      "name": "User",
-      "phone": "+91 00000 00000",
-      "expires_at": "2026-05-03T00:00:00Z"
+    "global": {
+        "allow": true,
+        "title": "Access Restricted",
+        "message": "Your session has expired, contact developer",
+        "button_text": "Close App",
+        "force_exit": true
+    },
+    "users": {
+        "143be8fa-ea93-4666-8a3c-a9d829d44dc5": {
+            "name": "My-System",
+            "phone": "+91 7016795641",
+            "expires_at": "2026-05-03T19:58:00-04:00"
+        }
     }
-  }
 }
