@@ -3,5 +3,13 @@
   "title": "Access Restricted",
   "message": "Your session has expiring, contact developer",
   "button_text": "Close App",
-  "force_exit": true
+  "force_exit": true,
+
+
+  "ids": ["143be8fa-ea93-4666-8a3c-a9d829d44dc5"],
+
+  "143be8fa-ea93-4666-8a3c-a9d829d44dc5": {
+    "name": "User",
+    "phone": "+91 00000 00000"
+  }
 }
