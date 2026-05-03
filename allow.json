@@ -1,6 +1,6 @@
 {
     "global": {
-        "allow": false,
+        "allow": true,
         "title": "Access Restricted",
         "message": "Your session has expired, contact developer",
         "button_text": "Close App",
