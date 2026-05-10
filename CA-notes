@@ -1,0 +1,13 @@
+CA developement
+
+1. Domain
+  1. entity/entities
+  2. repositories
+  3. usecases
+2. data
+  1. models
+  2. api 'services' (if not skip)
+  3. datasources
+  4. repositories (impl)
+
+done
