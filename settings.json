@@ -1,0 +1,168 @@
+{
+  "editor.minimap.enabled": false,
+  "workbench.editor.empty.hint": "hidden",
+  "editor.accessibilitySupport": "off",
+  "editor.stickyScroll.enabled": false,
+  "editor.formatOnPaste": true,
+  "editor.mouseWheelZoom": true,
+  "dart.debugExternalPackageLibraries": false,
+  "dart.debugSdkLibraries": false,
+  "dart.previewFlutterUiGuides": true,
+  "terminal.integrated.gpuAcceleration": "off",
+  "dart.previewFlutterUiGuidesCustomTracking": true,
+  "dart.flutterChromeArgs": [
+    "--enable-extensions"
+  ],
+  "accessibility.signals.voiceRecordingStarted": {
+    "sound": "off"
+  },
+  "accessibility.signals.voiceRecordingStopped": {
+    "sound": "off"
+  },
+  "accessibility.signals.lineHasError": {
+    "announcement": "off",
+    "sound": "off"
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact"
+  ],
+  "files.associations": {
+    "*.jsx": "javascriptreact"
+  },
+  "workbench.colorTheme": "One Dark Pro Night Flat",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.fixAll.dart": "explicit",
+    "source.organizeImports": "explicit",
+    "source.addMissingImports": "always"
+  },
+  "editor.formatOnSave": true,
+  "dart.flutterCreateOrganization": "com.bulletApp",
+  "php.executables": {},
+  "workbench.iconTheme": "material-icon-theme",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "js/ts.implicitProjectConfig.checkJs": true,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "yaml": false,
+    "dart": false
+  },
+  "material-icon-theme.saturation": 1,
+  "betterFolding.showOnlyRegionsDescriptions": true,
+  "editor.foldingImportsByDefault": true,
+  "betterFolding.showFoldedBodyLinesCount": false,
+  "editor.showFoldingControls": "always",
+  "regionFold.markerColor": "#E05C5C5f",
+  "arb-editor.suppressedWarnings": "all",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.quickSuggestionsDelay": 500,
+  "search.searchView.keywordSuggestions": true,
+  "terminal.integrated.suggest.quickSuggestions": {
+    "commands": "on",
+    "arguments": "on",
+    "unknown": "off"
+  },
+  "command-runner.commands": {
+    // Flutter project basics
+    "flutter sync": "flutter pub get",
+    "flutter clean": "flutter clean",
+    "rebuild assets": "flutter packages pub run build_runner build",
+    "flutter pub upgrade": "flutter pub upgrade",
+    // Install common packages at once
+    "install http": "flutter pub add http",
+    "install shared_preferences": "flutter pub add shared_preferences",
+    "install bloc": "flutter pub add bloc",
+    "install flutter_bloc": "flutter pub add flutter_bloc",
+    // Install multiple useful packages in one command
+    "install flutter essentials": "flutter pub add http shared_preferences bloc flutter_bloc",
+    // Run app commands
+    "flutter run": "flutter run",
+    "flutter build apk": "flutter build apk",
+    "flutter build ios": "flutter build ios",
+    // Watch build_runner for code generation
+    "watch assets": "flutter packages pub run build_runner watch --delete-conflicting-outputs"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "git.openRepositoryInParentFolders": "always",
+  "dart.flutterSdkPath": "M:\\Khatrii\\flutter_windows_3.41.1-stable\\flutter",
+  "files.exclude": {
+    "": true,
+    "**/.dart_tool": true,
+    "**/.flutter-plugins-dependencies": true,
+    "**/.gitignore": true,
+    "**/.idea": true,
+    "**/.metadata": true,
+    "**/.vscode": true,
+    "**/*.iml": true,
+    "**/*.log": true,
+    "**/android/app/src/debug": true,
+    "**/android/app/src/main/java": true,
+    "**/android/app/src/main/res": true,
+    "**/android/app/src/profile": true,
+    "**/android/gradle": true,
+    "**/android/gradlew": true,
+    "**/android/gradlew.bat": true,
+    "**/build": true,
+    "**/devtools_options.yaml": true,
+    "**/ios": true,
+    "**/linux": true,
+    "**/macos": true,
+    "**/pubspec.lock": true,
+    "**/README.md": true,
+    "**/web": true,
+    "**/wesho.iml": true,
+    "**/windows": true
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "dart.flutterRunAdditionalArgs": [
+    "--no-start-paused"
+  ],
+  "workbench.editorAssociations": {
+    "*.svg": "default"
+  },
+  "php.problems.scope": "all",
+  "svg.preview.mode": "svg",
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "editor.inlayHints.enabled": "off",
+  "workbench.colorCustomizations": {
+    "editor.lineHighlightBackground": "#1073cf2d",
+    "editor.lineHighlightBorder": "#9fced11f"
+  },
+  "editor.wordWrap": "off",
+  "diffEditor.wordWrap": "off",
+  "editor.guides.indentation": false,
+  "editor.guides.bracketPairs": true,
+  "editor.suggest.insertMode": "insert",
+  "[dart]": {
+    "editor.suggest.insertMode": "insert"
+  },
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, bun.lock",
+    "pubspec.yaml": "pubspec.lock,pubspec_overrides.yaml,.packages,.flutter-plugins,.flutter-plugins-dependencies,.metadata",
+    "*.dart": "${capture}.g.dart",
+    "*.sqlite": "${capture}.${extname}-*",
+    "*.db": "${capture}.${extname}-*",
+    "*.sqlite3": "${capture}.${extname}-*",
+    "*.db3": "${capture}.${extname}-*",
+    "*.sdb": "${capture}.${extname}-*",
+    "*.s3db": "${capture}.${extname}-*"
+  },
+  "explorer.autoReveal": true,
+}
